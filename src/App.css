@@ -1,0 +1,32 @@
+body{
+  background-color: #696969;
+}
+
+.App{
+  display: grid;
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 4px;
+
+  grid-template-areas: 
+  "a a"
+  "b c";
+}
+
+.header{
+  grid-area: a;
+  background-color: aqua;
+  border: 1px solid burlywood;
+}
+
+.main-nav{
+  grid-area: b;
+  background-color: goldenrod;
+  border: 1px solid burlywood;
+}
+
+.main-content{
+  grid-area: c;
+  background-color: hotpink;
+  border: 1px solid burlywood;
+}
