@@ -3,6 +3,9 @@ body{
 }
 
 .App{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 5px;
   display: grid;
   grid-template-rows: 60px 1fr;
   grid-template-columns: 2fr 10fr;
@@ -11,22 +14,4 @@ body{
   grid-template-areas: 
   "a a"
   "b c";
-}
-
-.header{
-  grid-area: a;
-  background-color: aqua;
-  border: 1px solid burlywood;
-}
-
-.main-nav{
-  grid-area: b;
-  background-color: goldenrod;
-  border: 1px solid burlywood;
-}
-
-.main-content{
-  grid-area: c;
-  background-color: hotpink;
-  border: 1px solid burlywood;
 }

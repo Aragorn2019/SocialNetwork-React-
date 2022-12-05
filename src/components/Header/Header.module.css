@@ -1,0 +1,16 @@
+.header {
+    grid-area: a;
+    background-color: #2F4F4F;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.logo__a{
+    margin-left: 2em;
+}
+
+.logo__img{
+    width: 80px;
+}
+

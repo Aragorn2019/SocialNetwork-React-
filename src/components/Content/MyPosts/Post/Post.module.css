@@ -1,0 +1,23 @@
+.avatar{
+    width: 80px;
+}
+
+.post{
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.text{
+    margin-left: 20px;
+}
+
+.likesBox{
+    width: 100%;
+}
+
+.likesCount{
+    margin-left: 6px;
+}
