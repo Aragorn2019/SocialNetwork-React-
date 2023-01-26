@@ -1,0 +1,20 @@
+.dialogsBox{
+    display: flex;
+    height: 100%;
+}
+
+.dialogsList{
+    width: 20%;
+    background-color: chocolate;
+}
+
+.dialogsShow{
+    width: 80%;
+    background-color: darkolivegreen;
+}
+
+.dialogsList__item{
+    padding: 8px;
+}
+
+

@@ -15,3 +15,9 @@ body{
   "a a"
   "b c";
 }
+
+.content{
+  grid-area: c;
+  background-color: #FAEBD7;
+
+}
