@@ -5,12 +5,12 @@
 
 .dialogsList{
     width: 20%;
-    background-color: chocolate;
 }
 
 .dialogsShow{
     width: 80%;
-    background-color: darkolivegreen;
+    padding: 10px;
+    border-left: 2px solid black;
 }
 
 .dialogsList__item{

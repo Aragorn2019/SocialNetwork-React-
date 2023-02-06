@@ -12,15 +12,15 @@ function Navbar() {
             <NavLink to='/dialogs' className={classes.mainNav__a}>messages</NavLink>
           </li>
           <li className={classes.mainNav__li}>
-            <a className={classes.mainNav__a} href='#'>news</a>
+            <NavLink to='/news' className={classes.mainNav__a}>news</NavLink>
           </li>
           <li className={classes.mainNav__li}>
-            <a className={classes.mainNav__a} href='#'>music</a>
+            <NavLink to='/music' className={classes.mainNav__a}>music</NavLink>
           </li>
         </ul>
-        <a className={classes.mainNav__settings} href='#'>
+        <NavLink to='/settings' className={classes.mainNav__settings}>
           settings
-        </a>
+        </NavLink>
       </nav>
     )
 }
