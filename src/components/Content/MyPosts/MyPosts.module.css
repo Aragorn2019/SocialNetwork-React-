@@ -2,3 +2,12 @@
     border-top: 1px solid black;
     padding: 20px;
 }
+
+.LeaveMessage{
+    display: flex;
+}
+
+.textarea{
+    resize: none;
+    width: 30%;
+}

@@ -5,7 +5,7 @@ import MyPosts from "./MyPosts/MyPosts";
 function Content() {
     return (
         <section className={classes.content}>
-            <MainContent__personal name="Witch King" side="Evil" age="over 4,000 years old"/>
+            <MainContent__personal name="Witch King" side="Dark" age="over 4,000 years old"/>
             <MyPosts />
         </section>
     )
