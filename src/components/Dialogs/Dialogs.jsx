@@ -28,24 +28,30 @@ function Dialogs(props) {
         {id: 4, name: 'Frodo'},
     ]
 
-    let messageData = [
+    let dialogsElements = dialogsData.map( dialogsData => <DialogItem name={dialogsData.name} id={dialogsData.id} />)
+
+    let messages = [
         {id: 1, message: 'Hi. Where is Frodo? Is he still Alive?'},
         {id: 2, message: 'Hi. Yeah. Seems like he is'},
         {id: 3, message: 'How can we hekp him achive Mordor?'},
         {id: 4, message: "All what we can do for him it's try to take attention of Dark Lord of ourselves"},
     ]
 
+    let messagesElements = messages.map( message => <DialogShow message={message.message}/> )
+
     return (
         <section className={classes.dialogsBox}>
             <div className={classes.dialogsList}>
-                <DialogItem name={dialogsData[0].name} id={dialogsData[0].id} />
-                <DialogItem name={dialogsData[1].name} id={dialogsData[2].id} />
+                {/* <DialogItem name={dialogsData[0].name} id={dialogsData[0].id} />
+                <DialogItem name={dialogsData[1].name} id={dialogsData[2].id} /> */}
+                { dialogsElements }
             </div>
             <div className={classes.dialogsShow}>
-                <DialogShow message={messageData[0].message} />
-                <DialogShow message={messageData[1].message} />
-                <DialogShow message={messageData[2].message} />
-                <DialogShow message={messageData[3].message} />
+                {/* <DialogShow message={messages[0].message} />
+                <DialogShow message={messages[1].message} />
+                <DialogShow message={messages[2].message} />
+                <DialogShow message={messages[3].message} /> */}
+                { messagesElements }
             </div>
         </section>
     )
