@@ -6,11 +6,11 @@ import Dialogs from './components/Dialogs/Dialogs'
 import News from './components/News/News'
 import Music from './components/Music/Music'
 import Settings from './components/Settings/Settings'
-// import {BrowserRouter, Routes, Route} from "react-router-dom"
 import { Routes, Route, Link } from "react-router-dom";
 
 
-function App() {
+function App(props) {
+
   return (
     <>
       <div className="App">
@@ -21,8 +21,8 @@ function App() {
 
         <div className='content'>
           <Routes>
-            <Route path="/content" element={<Content/>} />
-            <Route path="/dialogs" element={<Dialogs/>} />
+            <Route path="/content" element={<Content posts={props.posts}/>} />
+            <Route path="/dialogs" element={<Dialogs dialogsData={props.dialogsData} messages={props.messages}/>} />
             <Route path="/news" element={<News/>} />
             <Route path="/music" element={<Music/>} />
             <Route path="/settings" element={<Settings/>} />
