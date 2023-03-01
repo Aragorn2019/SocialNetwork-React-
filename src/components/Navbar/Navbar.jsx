@@ -21,6 +21,30 @@ function Navbar() {
         <NavLink to='/settings' className={classes.mainNav__settings}>
           settings
         </NavLink>
+
+        <h3 className={classes.friends__listTitle}>Friends</h3>
+        <ul className={classes.friends__list}>
+          <li className={classes.friends__listItem}>
+            <img className={classes.friends__itemAva} src="aragorn.jpg" alt="as" />
+            <h3 className={classes.friends__itemName}>Aragorn</h3>
+          </li>
+          <li className={classes.friends__listItem}>
+            <img className={classes.friends__itemAva} src="aragorn.jpg" alt="as" />
+            <h3 className={classes.friends__itemName}>Aragorn</h3>
+          </li>
+          <li className={classes.friends__listItem}>
+            <img className={classes.friends__itemAva} src="aragorn.jpg" alt="as" />
+            <h3 className={classes.friends__itemName}>Aragorn</h3>
+          </li>
+          <li className={classes.friends__listItem}>
+            <img className={classes.friends__itemAva} src="aragorn.jpg" alt="as" />
+            <h3 className={classes.friends__itemName}>Aragorn</h3>
+          </li>
+          <li className={classes.friends__listItem}>
+            <img className={classes.friends__itemAva} src="aragorn.jpg" alt="as" />
+            <h3 className={classes.friends__itemName}>Aragorn</h3>
+          </li>
+        </ul>
       </nav>
     )
 }
