@@ -33,8 +33,8 @@ function Navbar() {
             <h3 className={classes.friends__itemName}>Aragorn</h3>
           </li>
           <li className={classes.friends__listItem}>
-            <img className={classes.friends__itemAva} src="aragorn.jpg" alt="as" />
-            <h3 className={classes.friends__itemName}>Aragorn</h3>
+            <img className={classes.friends__itemAva} src="legolas.jpg" alt="as" />
+            <h3 className={classes.friends__itemName}>Legolas</h3>
           </li>
           <li className={classes.friends__listItem}>
             <img className={classes.friends__itemAva} src="aragorn.jpg" alt="as" />

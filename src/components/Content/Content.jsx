@@ -7,7 +7,7 @@ debugger;
     return (
         <section className={classes.content}>
             <MainContent__personal name="Witch King" side="Dark" age="over 4,000 years old"/>
-            <MyPosts posts={props.state.posts}/>
+            <MyPosts posts={props.state.posts} addPost={props.addPost}/>
         </section>
     )
 }
