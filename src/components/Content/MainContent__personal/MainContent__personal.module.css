@@ -1,0 +1,14 @@
+.mainContent__area{
+    margin: 10px;
+}
+
+.photo{
+    width: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.property{
+    font-weight: 600;
+    display: block;
+}

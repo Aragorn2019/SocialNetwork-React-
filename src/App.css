@@ -1,0 +1,38 @@
+body{
+  background-color: #696969;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+}
+
+.App{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 5px;
+  display: grid;
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 4px;
+
+  grid-template-areas: 
+  "a a"
+  "b c";
+}
+
+.content{
+  grid-area: c;
+  background-color: #FAEBD7;
+
+}
+
+.active{
+  color: yellow !important;
+}
